@@ -1,3 +1,5 @@
+/* estilos reutilizables */
+
 * {
   box-sizing: border-box;  
   font-family: 'Roboto', sans-serif;
@@ -6,6 +8,20 @@
 
 a {
   text-decoration: none;
+  color: #ffffff;  
+}
+
+p {
+  line-height: 1.5;
+}
+
+.crow>section {
+  margin: 50px;
+  color: #393939;
+}
+
+.bottom {
+  margin-bottom: 50px;
 }
 
 .view-desktop {
@@ -16,6 +32,75 @@ a {
   display: block;
 }
 
+.bg-repeat {
+  background-color: #383e42;
+  color: #ffffff;
+}
+
 figure>img {
   border-radius: 50%;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+/* mobile style */
+
+header>nav {
+  padding: 3% 3.5%;
+}
+
+header>nav>a {
+  font-size: 1.3em;
+  position: relative;
+  display: inline-block;
+  padding: 2.5% 0;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 3.3rem;
+  font-weight: 300;
+}
+
+.bg-img {
+  background-image: url('../assets/img/header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-img>div {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 18.5% 1.2%;
+}
+
+.main-icon {
+  border: .5px solid #9e9e9e;
+  border-radius: 5px;
+  color: #a7a7a7;  
+  display: inline-block;
+  padding: 2% 4%;
+}
+
+.main-icon>i {
+  font-size: 30px;
+}
+
+footer {
+  padding: 50px;
 }
