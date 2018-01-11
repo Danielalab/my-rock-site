@@ -6,6 +6,9 @@
 html {
   box-sizing: border-box;
 }
+
+@media (min-width: 768px){
+
 .crow {
   text-align: center;
   font-size: 0 !important;
@@ -438,4 +441,6 @@ html {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
 }
